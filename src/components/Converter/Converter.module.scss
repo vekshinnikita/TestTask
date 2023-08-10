@@ -1,0 +1,36 @@
+@import '~/styles/variables.scss';
+
+.swapButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    svg{
+        font-size: 1.875rem;
+    }
+    
+}
+
+.infoBlock{
+    margin-top: 1rem;
+}
+
+
+.rate{
+    font-size: 0.75rem;
+    margin-bottom: 0.32rem;
+}
+
+
+.infoLine{
+    font-size: 0.75rem;
+    color: #8c93a5,
+}
+
+.blockConverter{
+    display: flex;
+
+    @include media-mobile{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
